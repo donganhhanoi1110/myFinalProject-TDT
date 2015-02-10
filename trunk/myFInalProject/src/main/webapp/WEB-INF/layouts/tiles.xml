@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC 
+"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="DefaultTemplate" template="/WEB-INF/views/template/Template.jsp">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="header" value="/WEB-INF/views/template/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/views/template/menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="sidebar"
+			value="/WEB-INF/views/template/sidebar.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/template/footer.jsp" />
+	</definition>
+
+	<definition name="login" template="/WEB-INF/views/login.jsp">
+	</definition>
+	<!-- Home -->
+	<definition name="home" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body" value="/WEB-INF/views/home.jsp" />
+	</definition>
+	<!-- User -->
+	<definition name="homeUser" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body" value="/WEB-INF/views/user/homeUser.jsp" />
+	</definition>
+	<definition name="editMyUser" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body" value="/WEB-INF/views/user/editUser.jsp" />
+	</definition>
+	<!-- /User -->
+
+
+	<!-- SavingAccount -->
+	<definition name="searchSavingAccount" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/savingaccount/searchSavingAccount.jsp" />
+	</definition>
+	<!-- SavingAccount -->
+
+	<definition name="adminSavingAccount" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/savingaccount/adminSavingAccount.jsp" />
+	</definition>
+	<definition name="supportSavingAccount" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/savingaccount/supportSavingAccount.jsp" />
+	</definition>
+
+	<definition name="editSavingAccount" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/savingaccount/editSavingAccount.jsp" />
+	</definition>
+	<definition name="viewAllSavingAccount" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/savingaccount/viewAllSavingAccount.jsp" />
+	</definition>
+
+	<!-- /SavingAccount -->
+	<!-- /SavingAccount -->
+
+	<!-- InterestRate -->
+	<definition name="homeInterestRate" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/interestrate/homeInterestRate.jsp" />
+	</definition>
+
+	<!-- /SavingAccount -->
+	<!-- Transaction -->
+	<definition name="homeTransaction" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/transaction/homeTransaction.jsp" />
+	</definition>
+	<definition name="adminTransaction" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/transaction/adminTransaction.jsp" />
+	</definition>
+	<definition name="supportTransaction" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/transaction/supportTransaction.jsp" />
+	</definition>
+	<definition name="editMyTransaction" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/transaction/editTransaction.jsp" />
+	</definition>
+	<definition name="viewTransaction" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/transaction/viewTransaction.jsp" />
+	</definition>
+	<definition name="viewOneTransaction" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/transaction/viewOneTransaction.jsp" />
+	</definition>
+	<!-- /Transaction -->
+	<definition name="loginFailed" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body" value="/WEB-INF/views/loginFailed.jsp" />
+	</definition>
+	<definition name="searchTran" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/transaction/searchTran.jsp" />
+	</definition>
+	<definition name="admin" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body" value="/WEB-INF/views/admin.jsp" />
+	</definition>
+	<definition name="403" template="/WEB-INF/views/Error403.jsp"></definition>
+	<definition name="404" template="/WEB-INF/views/Error404.jsp"></definition>
+	<definition name="405" template="/WEB-INF/views/Error405.jsp">
+	</definition>
+	<definition name="hello" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body" value="/WEB-INF/views/hello.jsp" />
+	</definition>
+
+	<definition name="home" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/home.jsp" />
+	</definition>
+	<definition name="customer" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body" value="/WEB-INF/views/customer/home.jsp" />
+	</definition>
+	<definition name="editCustomer" extends="DefaultTemplate">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/customer/editCustomer.jsp" />
+	</definition>
+
+
+</tiles-definitions>
