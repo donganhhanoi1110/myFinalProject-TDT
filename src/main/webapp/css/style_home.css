@@ -1,0 +1,375 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.myButtonNone {
+	background: none;
+	border: none;
+}
+
+.myFooter1 {
+	background-image: url(../images/myimage/footer.png);
+	min-height: 160px;
+	background-repeat: no-repeat;
+	background-position: 0px;
+	background-size: 100%;
+	height: 291px;
+	background-color: transparent;
+	border-top: 1px solid whitesmoke;
+	/* box-shadow: 1px 1px 1px rgba(0,0,0,8.5); */
+}
+
+.searchBox {
+	width: 150px;
+	height: 20px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.mySearchText tr>td {
+	margin-right: 3px;
+}
+
+#cover_box {
+	background-color: #CCFFFF;
+	margin: 10px;
+}
+
+#cover_all_box {
+	margin: 20 40px;
+}
+
+.cover_box {
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+	text-align: center;
+	background-color: #EEE9E9;
+	margin: 5px;
+	float: left;
+	border-radius: 15px;
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5), 0px 5px 5px 0px
+		rgba(255, 255, 255, 0.5) inset;
+}
+
+.box_title {
+	font: normal;
+	font-family: serif;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.cover_box:hover {
+	background-color: orange;
+}
+
+.cover_box img:hover {
+	height: 110px;
+}
+
+#cover_content {
+	overflow: hidden;
+	height: auto;
+	min-height: 300px;
+	width: 100%;
+}
+
+#content_left {
+	float: left;
+	padding: 10px;
+	margin-left: 5%;
+}
+
+#content_right {
+	float: right;
+	width: 85%;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	-webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	/* box-shadow: 0px 1px 0px 0px #f0f7fa; */
+	/* background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef
+		), color-stop(1, #019ad2)); */
+	background: -moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background: -webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background: -o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background: -ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background: yellowgreen;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef',
+		endColorstr='#019ad2', GradientType=0);
+	/* background-color: #33bdef; */
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid green;
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 8px;
+	text-decoration: none;
+	text-shadow: 0px -1px 0px #5b6178;
+}
+
+.myButton:hover {
+	/* background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2
+		), color-stop(1, #33bdef)); */
+	background: -moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	/* background: -webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%); */
+	background: -o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background: -ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	/* background: darkseagreen; */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2',
+		endColorstr='#33bdef', GradientType=0);
+	background-color: darkseagreen;
+}
+
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+
+.myButton a {
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+}
+
+.mytable_wrapper {
+	min-height: 560px;
+}
+
+.mytable {
+	margin-top: 10px;
+}
+
+.mytable table {
+	color: #333;
+	font-family: sans-serif;
+	font-size: .9em;
+	font-weight: 300;
+	text-align: left;
+	line-height: 40px;
+	border-spacing: 0;
+	border: 1px solid #428bca;
+	width: 500px;
+	margin: 20px auto;
+}
+
+.mytable1 th {
+	color: white;
+	background: yellowgreen;
+	border-bottom: 4px solid #9ea7af;
+	border-right: 1px solid #343a45;
+	font-size: small;
+	padding: 10px;
+	text-align: left;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	vertical-align: middle;
+}
+
+}
+.mytable1 th:first-child {
+	border-top-left-radius: 3px;
+}
+
+.mytable1 th:last-child {
+	border-top-right-radius: 3px;
+	border-right: none;
+}
+
+.mytable1 tr {
+	border-top: 1px solid #C1C3D1;
+	border-bottom-: 1px solid #C1C3D1;
+	color: #666B85;
+	font-size: 16px;
+	font-weight: normal;
+	text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+.mytable1 tr:hover td {
+	background: darkseagreen;
+	color: #FFFFFF;
+	border-top: 1px solid #22262e;
+	border-bottom: 1px solid #22262e;
+}
+
+.mytable1 tr:first-child {
+	border-top: none;
+}
+
+.mytable1 tr:last-child {
+	border-bottom: none;
+}
+
+.mytable1 tr:nth-child(odd) td {
+	background: #EBEBEB;
+}
+
+.mytable1 tr:nth-child(odd):hover td {
+	background: darkseagreen;
+}
+
+.mytable1 tr:last-child td:first-child {
+	border-bottom-left-radius: 3px;
+}
+
+.mytable1 tr:last-child td:last-child {
+	border-bottom-right-radius: 3px;
+}
+
+.mytable1 td {
+	background: #FFFFFF;
+	padding: 20px;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: 250;
+	font-size: 15px;
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+	border-right: 1px solid #C1C3D1;
+}
+
+.mytable1 td:last-child {
+	border-right: 0px;
+}
+
+.mytable1 th.text-left {
+	text-align: left;
+}
+
+.mytable1 th.text-center {
+	text-align: center;
+}
+
+.mytable1 th.text-right {
+	text-align: right;
+}
+
+.mytable1 td.text-left {
+	text-align: left;
+}
+
+.mytable1 td.text-center {
+	text-align: center;
+}
+
+.mytable1 td.text-right {
+	text-align: right;
+}
+
+.css-input {
+	padding: 6px;
+	font-size: 18px;
+	text-align: left;
+	border-width: 4px;
+	border-radius: 9px;
+	border-style: groove;
+	border-color: #41ddf2;
+	background-color: #f2faff;
+}
+
+.css-input:focus {
+	outline: none;
+}
+
+.textox {
+	width: 174px;
+	height: 30px;
+	border: solid 2px #3091DB;
+	padding: 3px;
+	border-radius: 5px;
+	font-size: 14px;
+	box-shadow: 0px 1px 2px 0px #9C9C9C;
+	background-color: #F5FAF9;
+	outline: none;
+	color: #474747;
+	text-transform: uppercase;
+}
+
+.textox:hover {
+	border: 2px solid #FF00D5;
+}
+
+.textox:focus {
+	border: solid 2px #00D43C;
+	box-shadow: inset 0px 1px 2px 0px #9C9C9C;
+}
+
+.textox:active {
+	border: solid 2px #0043EB;
+}
+
+.mytable2 th {
+	color: #3399CC;;
+	font-size: 15px;
+	font-weight: 100;
+	padding: 5px;
+	text-align: left;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	vertical-align: middle;
+}
+
+.mytable2 tr {
+	color: #666B85;
+	font-size: 16px;
+	font-weight: normal;
+	text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+.mytable2 tr:hover td {
+	color: #FFFFFF;
+}
+
+.mytable2 td {
+	padding: 5px;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: 250;
+	font-size: 15px;
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.myFooter1>label {
+	color: rgb(50, 69, 205);
+	margin: 10px;
+}
+
+td.new {
+    background-color: darkturquoise!important;
+    color: white;
+    text-align: center;
+}
+td.deactive {
+    background-color: red!important;
+    color: white;
+    text-align: center;
+}
+td.deny {
+    background-color: red!important;
+    color: white;
+    text-align: center;
+}
+td.hold {
+	background-color: orange!important;
+    color: white;
+    text-align: center;
+}
+td.done{
+	background-color: blue!important;
+    color: white;
+    text-align: center;
+}
+
+td.active {
+    background-color: springgreen!important;
+    color: white;
+    text-align: center;
+}
