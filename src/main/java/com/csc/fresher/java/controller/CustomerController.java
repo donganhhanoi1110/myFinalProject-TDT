@@ -1,6 +1,4 @@
 package com.csc.fresher.java.controller;
-// Author nguyenfffaa
-//MInh
 import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
